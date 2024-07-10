@@ -1,2 +1,4 @@
-package Rey.test_suite;public class LoginTest {
+package Rey.test_suite;
+
+public class LoginTest {
 }

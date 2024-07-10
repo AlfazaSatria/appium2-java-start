@@ -4,8 +4,6 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.URL;
 
-import Rey.page_objects.ShopeeAppPage;
-
 public class TestInstrument {
     public static void main(String[] args) {
         try {
