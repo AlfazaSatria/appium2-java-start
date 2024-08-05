@@ -9,15 +9,18 @@ public class Shopee extends TestInstrument {
     private LoginPage loginPage;
     private Homepage homePage;
     private BottomBar bottomBar;
+    private MePage mePage;
 
     public Shopee() {
         loginPage = new LoginPage();
         homePage = new Homepage();
         bottomBar = new BottomBar();
+        mePage = new MePage();
     }
 
     public void login(String username, String password) {
         bottomBar.clickMeButton();
+        mePage.clickSignInButton();
         loginPage.login(username, password);
     }
 

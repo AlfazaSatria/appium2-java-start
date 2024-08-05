@@ -4,6 +4,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.URL;
 
+
 public class TestInstrument {
     public static void main(String[] args) {
         try {
@@ -15,7 +16,6 @@ public class TestInstrument {
             capabilities.setCapability("appActivity", "com.shopee.app.ui.home.HomeActivity_");
             URL appiumServerURL = new URL("http://127.0.0.1:4723/");
             AndroidDriver driver = new AndroidDriver(appiumServerURL, capabilities);
-
 
 
         } catch (Exception e) {

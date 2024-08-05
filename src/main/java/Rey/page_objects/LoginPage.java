@@ -15,7 +15,9 @@ public class LoginPage {
     protected WebElement loginButton;
 
     public void login(String username, String password) {
+        usernameField.click();
         usernameField.sendKeys(username);
+        passwordField.click();
         passwordField.sendKeys(password);
         loginButton.click();
     }
